@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/css/style.css">
+    <link rel="stylesheet" href="/app/css/login.css">
     <title>EdTech</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <h1>EdTech</h1>
+            <h1 class="logotipo">EdTech</h1>
             <ul>
-                <li><a href="#">Voltar</a></li>
+                <a href="#" class="btn-voltar">
+                    <li class="item-btn-voltar">Voltar</li>
+                </a>
             </ul>
         </nav>
     </header>
 
     <main>
-        <aside>
-
-            <h3>
+        <aside class="destaque-lateral">
+            <h3 class="titulo-lateral">
                 Cadastre-se e desbloqueie seu potencial inexplorado
+                <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.0001 15.8558C29.0001 23.8214 22.7087 30.2359 15.0001 30.2359C7.29158 30.2359 1.00012 23.8214 1.00012 15.8558C1.00012 7.89011 7.29158 1.47565 15.0001 1.47565C22.7087 1.47565 29.0001 7.89011 29.0001 15.8558Z" fill="#EF4235" stroke="#101010" stroke-width="2"/>
+                    <path d="M24.2143 15.8558C24.2143 21.1302 20.0538 25.3416 15.0001 25.3416C9.94631 25.3416 5.78577 21.1302 5.78577 15.8558C5.78577 10.5813 9.94631 6.36998 15.0001 6.36998C20.0538 6.36998 24.2143 10.5813 24.2143 15.8558Z" fill="#FFDB23" stroke="#FF9124" stroke-width="3"/>
+                    <path d="M19 15.8558C19 18.1586 17.1857 19.9825 15 19.9825C12.8143 19.9825 11 18.1586 11 15.8558C11 13.5529 12.8143 11.7291 15 11.7291C17.1857 11.7291 19 13.5529 19 15.8558Z" fill="#101010" stroke="#42CD33" stroke-width="2"/>
+                  </svg>
             </h3>
             
-            <p>Encontre respostas, inspirações e recursos para todos os educadores e alunos!</p>
+
+            <p class="paragrafo-lateral">Encontre respostas, inspirações e recursos para todos os educadores e alunos!
+            </p>
         </aside>
 
-        <aside>
+        <aside class="formulario-lateral">
 
-            <h4>Bem-vindo de volta</h4>
+            <h4 class="titulo-formulario">Bem-vindo de Volta</h4>
 
-            <form action="">
+            <form class="form-login" action="">
 
-                <div>
-                    <label for="login-email">E-mail</label>
-                    <input type="text" name="login-email" placeholder="seuemail@dominio.com">
+                <div class="secao-form">
+                    <label for="login-email" class="titulo-secao">E-mail</label>
+                    <input class="input-secao" type="email" name="login-email" placeholder="seuemail@dominio.com">
                 </div>
 
-                <div>
-                    <label for="login-senha">Senha</label>
-                    <input type="password" name="login-senha" placeholder="*********">
+                <div class="secao-form">
+                    <div class="header-campo-senha">
+                        <label for="login-senha" class="titulo-secao">Senha</label>
+                        <a class="btn-recupera-senha" href="#">Esqueceu sua senha?</a>
+                    </div>
+                    <input class="input-secao" type="password" name="login-senha" placeholder="*********">
                 </div>
 
-                <input type="submit" value="Entrar">
+                <input class="btn-entrar" type="submit" value="Entrar">
 
             </form>
 
         </aside>
     </main>
-    
+
 </body>
+
 </html>
