@@ -1,0 +1,318 @@
+/*body*/
+body {
+    overflow-x: hidden;
+}
+
+/*navbar*/
+.navbar{
+    height: 104px;
+    width: 100%;
+    background-color: white;
+    font-family: Arial;
+}
+
+.navbar-brand{
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+    left: 55px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/*dropdown*/
+.livro{
+    position: relative;
+    bottom: 3px;
+}
+
+.nav-item{
+    color: black;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    left: -50px;
+}
+
+.dropdown-item{
+    color: black;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+#navbarDropdownMenuLink{
+    position: relative;
+    left: 150px;
+    color: black;
+}
+
+/*link de paginas*/
+.nav-item1{
+    color: black;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    left: 360px;
+}
+
+.nav-item2{
+    color: black;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    left: 385px;
+}
+
+.nav-item3{
+    color: black;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+    left: 410px;
+}
+
+/*Botão login*/
+.btn_login{
+    position: relative;
+    bottom: 5px;
+    left: 485px;
+    background-color: rgb(248, 254, 95);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 700;
+    height: 40px;
+    width: 114px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 8px;
+    box-shadow: 4px 4px black;
+}
+
+a{
+    color: black;
+}
+
+/*main*/
+#main{
+    display: flex;
+    height: 460px;
+    width: 100%;
+    background-color: white;
+}
+
+/*1ª seção*/
+.col1{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-left: 0px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(31, 218, 146);
+}
+
+/*Conteudo centralizado da 1ª seção*/
+#quadrante1{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    height: 350px;
+    width: 490px;
+}
+
+h1{
+    text-align:left;
+    color: black;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.bateria{
+    position: relative;
+    left: 330px;
+    top: -60px;
+    width: 38px;
+    height: 50px;
+}
+
+#subtitulo{
+    text-align: left;
+    color: black;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: -45px;
+}
+
+/*form para pesquisar matéria*/
+form{
+    position: relative;
+    top: -15px;
+    width: 435px;
+    height: 45px;
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+}
+
+.form-control{
+    background-image: url("../Image/Lupa.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25px;
+    padding-top: 10px;
+    padding-left: 27px;
+    height: 45px;
+    width: 324px;
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 600;
+    border-color: black;
+    border-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn_pesquisar{
+    background-color: rgb(248, 254, 95);
+    color: black;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 600;
+    border-width: 2px;
+    border-left: 0px;
+    border-color: black;
+    width: 111px;
+    height: 45px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*2ª seção*/
+.col2{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-right: 0px;
+    border-left: 0px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(198, 155, 252);
+}
+
+/*rodapé*/
+#footer{
+    height: 306px;
+    width: 100%;
+}
+
+.col3{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.imagem1{
+    position: relative;
+    top: 10px;
+    left: 10px; 
+}
+
+.col4{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.imagem2{
+    position: relative;
+    top: 15px;
+    left: 15px; 
+}
+
+.col5{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.imagem3{
+    position: relative;
+    top: 13px;
+    left: 13px; 
+}
+
+.col6{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.imagem4{
+    position: relative;
+    top: 15px;
+    left: 13px;
+}
+
+.conteudo{
+    height: 210px;
+    width: 220px;
+    position: relative;
+    top: 48px;
+    left: 55px;
+}
+
+.conteudo2{
+    height: 210px;
+    width: 230px;
+    position: relative;
+    top: 48px;
+    left: 55px;
+}
+
+.circulo{
+    background-color: rgb(248, 254, 95);
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 70px;
+    width: 70px;
+    align-content: center;
+    box-shadow: 4px 4px black;
+}
+
+#titulo{
+    text-align:left;
+    color: black;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#subtitulo2{
+    text-align:left;
+    color: black;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+}
