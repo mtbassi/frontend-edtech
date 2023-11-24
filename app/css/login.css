@@ -28,6 +28,15 @@ nav {
     padding: 0.5rem 2rem;
 }
 
+.item-btn-cadastrar {
+    list-style: none;
+    border-radius: 8px;
+    border: 2px solid #101010;
+    background: #F8FE5F;
+    box-shadow: 4px 4px 0px 0px #000;
+    padding: 0.5rem 2rem;
+}
+
 .btn-voltar {
     font-size: 1rem;
     font-weight: 600;
@@ -35,7 +44,20 @@ nav {
     color: #101010;
 }
 
+.btn-cadastrar {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #101010;
+}
+
 .item-btn-voltar:hover {
+    cursor: pointer;
+    background: #dfe455;
+    transition: 0.3s;
+}
+
+.item-btn-cadastrar:hover {
     cursor: pointer;
     background: #dfe455;
     transition: 0.3s;
